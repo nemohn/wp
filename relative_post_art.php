@@ -1,3 +1,4 @@
+<?php
 /*==========================Create Relative Products Link and relative news============================*/	
 		
 	add_action( 'admin_menu', 'register_my_custom_menu_page' );
