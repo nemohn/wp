@@ -36,7 +36,7 @@
 
 //---------shortcode san pham lien quan
 	
-	add_shortcode('sanphamlienquan',function($content){ // hoac co the dung add_filter()
+	add_shortcode('sanphamlienquan',function($content){ // or can use add_filter()
 		global $wpdb;
 		$id = get_the_id();
 		
@@ -102,7 +102,7 @@
 	
 //---------shortcode san pham cung tac gia
 		
-	add_shortcode('sanphamcungtacgia',function($content){ // hoac co the dung add_filter()
+	add_shortcode('sanphamcungtacgia',function($content){ // // or can use add_filter()
 		global $wpdb;
 		$id = get_the_id();
 		$post_author_id = get_post_field( 'post_author', $post_id );
@@ -170,7 +170,7 @@
 	
 //---------shortcode tin tuc lien quan
 
-add_shortcode('tintuclienquan',function($content){ // hoac co the dung add_filter()
+add_shortcode('tintuclienquan',function($content){ // // or can use add_filter()
 		global $wpdb;
 		$id = get_the_id();
 		
@@ -208,7 +208,7 @@ add_shortcode('tintuclienquan',function($content){ // hoac co the dung add_filte
 
 //---------shortcode thong tin tac gia
 
-add_shortcode('tieusutacgia',function($content){ // hoac co the dung add_filter()
+add_shortcode('tieusutacgia',function($content){ // // or can use add_filter()
 		global $wpdb;
 		$id = get_the_id();
 		
